@@ -31,7 +31,6 @@ function setup(){
     o4 = new Objects(800,260);
     o5 = new Objects(800,310);
     o6 = new Objects(800,360);
-    console.log(o1.body.speed);
 
     chain = new Chain(player.body,{x:200, y:200});
 }
